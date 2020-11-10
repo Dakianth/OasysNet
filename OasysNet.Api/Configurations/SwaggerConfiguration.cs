@@ -148,23 +148,23 @@ namespace OasysNet.Api.Configurations
 
             return info;
         }
+    }
 
-        //TODO: Convert to Records in .NET5
-        public partial class ApiInfo
-        {
-            public string Title { get; set; }
+    //TODO: Convert to Records in .NET5
+    public partial class ApiInfo
+    {
+        public string Title { get; set; }
 
-            public string Description { get; set; }
+        public string Description { get; set; }
 
-            public Contact Contact { get; set; }
-        }
+        public Contact Contact { get; set; }
+    }
 
-        //TODO: Convert to Records in .NET5
-        public partial class Contact
-        {
-            public string Name { get; set; }
+    //TODO: Convert to Records in .NET5
+    public partial class Contact
+    {
+        public string Name { get; set; }
 
-            public string Email { get; set; }
-        }
+        public string Email { get; set; }
     }
 }
